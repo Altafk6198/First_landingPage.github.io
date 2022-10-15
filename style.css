@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #C6FFDD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#button01{
+   color: transparent;
+    border-radius: 10px;
+}
+
+.carousel-inner img {
+    height: 95vh;
+}
+
+.servises-main {
+    height: 80vh;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+
+.row-body {
+    height: 55vh;
+    /* border: 1px Solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .card-body {
+    border: 1px solid yellow;
+} */
+
+.card img {
+    height: 20vh;
+    width: 18rem;
+}
+
+.card {
+    box-shadow: 10px 10px 20px grey !important;
+}
+
+.about {
+    /* border: 1px solid blue; */
+    height: 45vh;
+}
+
+#navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    border-radius: 15px 35px;
+    text-shadow: 2px 1px 15px white
+}
+
+.container {
+    height: 100%;
+}
+#carouselExampleCaptions{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 15px #231b1c;
+}
+h1{
+    text-shadow: 3px 3px 7px white
+}
+.card:hover{
+    transform: translate(-20px, -20px);
+    transition: all ease 0.5s;
+}
+.drop-color li a{
+    color: white;  
+}
+.drop-color ul{
+    background-color: black;
+}
+input{
+    caret-color: darkslategrey;
+}
+footer{
+    height: 2rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#collapse{
+    background-color:rgb(55, 111, 222);
+    border-radius: 10px;
+}
